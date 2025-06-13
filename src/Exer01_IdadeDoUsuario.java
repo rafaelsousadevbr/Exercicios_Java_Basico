@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercicio01 {
+public class Exer01_IdadeDoUsuario {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
         
