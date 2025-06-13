@@ -1,13 +1,18 @@
 import java.util.Scanner;
 
 public class Exer03_AreaDoRetangulo {
-    public static void main(String[] args) {
+    /**
+     * Este programa calcula a área de um retângulo.
+     * O usuário deve informar a base e a altura do retângulo.
+     * A área é calculada como base * altura.
+     */
+    public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Digite a base do retângulo: ");
+        System.out.println("Digite a base do retângulo: ");
         double base = scanner.nextDouble();
 
-        System.out.print("Digite a altura do retângulo: ");
+        System.out.println("Digite a altura do retângulo: ");
         double altura = scanner.nextDouble();
 
         double area = base * altura;
