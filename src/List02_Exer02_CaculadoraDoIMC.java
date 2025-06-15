@@ -10,10 +10,10 @@ public class List02_Exer02_CaculadoraDoIMC {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Digite o peso em kg: ");
+        System.out.println("Digite o peso em kg: ");
         double peso = scanner.nextDouble();
 
-        System.out.print("Digite a altura em metros: ");
+        System.out.println("Digite a altura em metros: ");
         double altura = scanner.nextDouble();
 
         double imc = peso / (altura * altura);
