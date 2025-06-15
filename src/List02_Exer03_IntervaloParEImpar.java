@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/**
+ * Este programa exibe números pares ou ímpares em um intervalo definido pelo usuário.
+ */
+
 public class List02_Exer03_IntervaloParEImpar {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
