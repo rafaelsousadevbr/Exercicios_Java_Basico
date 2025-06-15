@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exer03_AreaDoRetangulo {
+public class List01_Exer03_AreaDoRetangulo {
     /**
      * Este programa calcula a área de um retângulo.
      * O usuário deve informar a base e a altura do retângulo.

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exer02_AreaDoQuadrado {
+public class List01_Exer02_AreaDoQuadrado {
     /**
      * Este programa calcula a área de um quadrado.
      * O usuário deve informar o tamanho do lado do quadrado.

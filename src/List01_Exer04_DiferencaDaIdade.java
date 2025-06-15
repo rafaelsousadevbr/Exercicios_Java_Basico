@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exer04_DiferencaDaIdade {
+public class List01_Exer04_DiferencaDaIdade {
     /**
      * Este programa calcula a diferença de idade entre duas pessoas.
      * O usuário deve informar o nome e o ano de nascimento de cada pessoa.

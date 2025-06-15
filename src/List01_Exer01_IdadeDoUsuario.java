@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exer01_IdadeDoUsuario {
+public class List01_Exer01_IdadeDoUsuario {
     /**
      * Este programa solicita o nome e o ano de nascimento do usuário,
      * calcula a idade com base no ano atual e exibe uma mensagem personalizada.
