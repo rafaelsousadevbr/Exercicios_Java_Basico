@@ -13,7 +13,7 @@ public class PetMachine {
         }
 
         pet.setClean(true);
-        System.out.println("The pet " + pet.getName() + " is clean.");
+        System.out.println("The pet " + this.pet.getName() + " is clean.");
     }
 
     public void addWater(){
@@ -41,4 +41,21 @@ public class PetMachine {
         return shampoo;
     }
 
+    public boolean hasPet() {
+        return pet != null;
+    }
+
+    public void setPet(Pet pet) {
+        if(!this.clean){
+            System.out.println("The machine is dirty; to "+
+            "put the pet in, it needs to be cleaned.");
+            return;
+        }
+
+        if(hasPet()){
+            System.out.println("The pet " + this.pet.getName() + 
+            " is in the machine at the moment.");
+        }
+        this.pet = pet;
+    }
 }
