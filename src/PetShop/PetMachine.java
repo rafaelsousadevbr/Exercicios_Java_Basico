@@ -23,6 +23,7 @@ public class PetMachine {
         }
         water += 2;
     }
+    
 
     public void addShampoo(){
         if(shampoo == 10){
@@ -30,6 +31,14 @@ public class PetMachine {
             return;
         }
         shampoo += 2;
+    }
+
+    public int getWater() {
+        return water;
+    }
+
+    public int getShampoo() {
+        return shampoo;
     }
 
 }
