@@ -17,7 +17,7 @@ public class Pet {
         return clean;
     }
 
-    public void setClean(final boolean clean) {
+    public void setClean(boolean clean) {
         this.clean = clean;
     }
 
